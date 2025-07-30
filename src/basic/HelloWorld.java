@@ -1,3 +1,10 @@
+package basic;
+/*
+clase 1: Instalación e inicio.
+ */
+
+// Hola Mundo
+
 public class HelloWorld {
 
     public static void main(String[] args) {
