@@ -1,11 +1,11 @@
 package basic;
 
 public class variableBeginnerExercises {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // 1. Declara una variable de tipo String y asígnale tu nombre.
 
-        String name= "Giovanni";
+        String name = "Giovanni";
         System.out.println(name);
 
         // 2. Crea una variable de tipo init y asígnale tu edad.
@@ -20,9 +20,9 @@ public class variableBeginnerExercises {
         // 4. Declara una variable de tipo boolean que indique si te gusta programar.
 
         boolean like = true;
-        if(like){
+        if (like) {
             System.out.println("Me gusta programar");
-        } else{
+        } else {
             System.out.println("No me gusta programar");
         }
 
@@ -34,10 +34,31 @@ public class variableBeginnerExercises {
         // 6. Crea una variable de tipo char y guárdale tu inicial.
 
         char letraA = 65;
-        System.out.println("la letra A en ASCII" + letraA);
+        System.out.println("la letra A en ASCII: " + letraA);
 
         // 7. Declara una variable de tipo String con tu localidad, y a continuación cambia su valor y vuelve a imprimirla.
+        String localidad = "Barquisimeto";
+        System.out.println("Mi ciudad actual es: " + localidad);
+        localidad = "Santiago de Chile";
+        System.out.println(localidad);
 
+        // 8. Crea una variable int llamada a, otra bm e imprime la suma de ambas.
+
+        int a = 20;
+        int b = 40;
+        int suma = a + b;
+        System.out.println(suma);
+
+        // 9. Imprime el tipo de dos variables creadas anteriormente.
+
+        Integer miEntero = 10;
+        System.out.println(miEntero.getClass().getName());
+
+        // 10. Intenta declarar una variable sin inicializarla y luego asígnale un valor antes de imprimirla.
+
+        String initialize;
+        initialize = "loquesea";
+        System.out.println(initialize);
 
     }
 }
