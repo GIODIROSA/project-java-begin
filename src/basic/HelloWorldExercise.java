@@ -1,7 +1,5 @@
 package basic;
 
-
-
 public class HelloWorldExercise {
 
     //Function de entrada y salida de la class
